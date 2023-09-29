@@ -1,4 +1,4 @@
-/*const webpack = require("webpack");
+const webpack = require("webpack");
 module.exports = function override(config) {
     const fallback = config.resolve.fallback || {};
     Object.assign(fallback, {
@@ -18,4 +18,4 @@ module.exports = function override(config) {
         }),
     ]);
     return config;
-};*/
+};
